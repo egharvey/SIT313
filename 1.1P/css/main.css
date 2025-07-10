@@ -1,0 +1,73 @@
+h1 {
+    color:slateblue;
+    font-family: serif;
+    font-size: 20;
+    text-align: center;
+}
+
+h2 {
+    vertical-align: text-bottom;
+    color: whitesmoke;
+    font-family: serif;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4)
+}
+
+
+
+p {
+    color: rgb(68, 42, 235);
+    font-family: serif;
+    font-size: larger;
+    text-align: center;
+}
+
+hr {
+    margin-right: 40%;
+    margin-left: 40%;
+    border: 5px solid slateblue;
+    border-radius: 5px;
+}
+
+
+/* THE FOLLOWING IS USED TO MAKE TEXT APPEAR ON AN IMAGE WHEN HOVERED OVER */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ 
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 35%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: whitesmoke;
+  font-family: serif;
+  font-size: 50px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
