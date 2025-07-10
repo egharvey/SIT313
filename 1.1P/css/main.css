@@ -14,13 +14,13 @@ h2 {
 }
 
 h3 {
-  color:slateblue;
+  color:rgb(40, 22, 158);
     font-family: serif;
     text-align: center;
 }
 
 p {
-    color: rgb(68, 42, 235);
+    color: rgb(64, 32, 245);
     font-family: serif;
     font-size: larger;
     text-align: center;
@@ -33,17 +33,15 @@ hr {
     border-radius: 5px;
 }
 
-
 /* THE FOLLOWING IS USED TO MAKE TEXT APPEAR ON AN IMAGE WHEN HOVERED OVER */
 .container {
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .image {
-  display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
  
