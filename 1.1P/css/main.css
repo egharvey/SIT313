@@ -13,7 +13,11 @@ h2 {
     background: rgba(0, 0, 0, 0.4)
 }
 
-
+h3 {
+  color:slateblue;
+    font-family: serif;
+    text-align: center;
+}
 
 p {
     color: rgb(68, 42, 235);
